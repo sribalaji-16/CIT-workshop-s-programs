@@ -11,7 +11,7 @@ library ieee;
             begin
                 shift_block:process(clk,reset,load)
                 begin
-                    if reset='1' then
+                    if reset='1' then 
                         temp<="00000000";
                         elsif rising_edge(clk) then
                             if load='1' then
