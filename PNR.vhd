@@ -8,7 +8,7 @@ library ieee;
         architecture behave of pnr is
             signal temp:std_logic_vector(7 downto 0); 
             signal x:std_logic;
-            begin
+            begin 
                 shift_block:process(clk,reset,load)
                 begin
                     if reset='1' then 
