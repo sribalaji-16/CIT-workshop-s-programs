@@ -26,7 +26,7 @@ library ieee;
                                 temp(6)<=temp(7);
                                 temp(7)<=x;
                             end if;
-                            end if;
+                            end if; 
                         end process shift_block;
                         x<=((((temp(0)xor temp(2))xor temp(4))xor temp(6)));
     
