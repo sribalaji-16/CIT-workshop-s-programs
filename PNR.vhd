@@ -6,7 +6,7 @@ library ieee;
             din:in std_logic_vector(7 downto 0));
         end pnr;
         architecture behave of pnr is
-            signal temp:std_logic_vector(7 downto 0);
+            signal temp:std_logic_vector(7 downto 0); 
             signal x:std_logic;
             begin
                 shift_block:process(clk,reset,load)
